@@ -4,9 +4,9 @@ import './Header.scss';
 const Header = () => {
 
   return (
-    <header>
-      <h1>Boom Boom POW</h1>
-      <h4>p5.js Sketches</h4>
+    <header className='main-header'>
+      <h1 className='header-title'>Boom Boom POW</h1>
+      <h4 className='header-subtitle'>p5.js Sketches</h4>
     </header>
   )
 }
