@@ -7,4 +7,11 @@ import sketch6 from './Sketch6';
 import sketch7 from './Sketch7';
 import sketch8 from './Sketch8';
 
-export const sketches = [sketch1, sketch2, sketch3, sketch4, sketch5, sketch6, sketch7, sketch8];
+let arrayOfSketches = [sketch1, sketch2, sketch3, sketch4, sketch5, sketch6, sketch7, sketch8];
+
+export const sketchesArray = arrayOfSketches.map((sketch, index) => {
+  return {
+    sketch: sketch,
+    id: index + 1
+  }
+})
