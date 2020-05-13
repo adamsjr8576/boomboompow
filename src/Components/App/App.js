@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.scss';
+import Header from '../Header/Header.js';
+import SketchesContainer from '../SketchesContainer/SketchesContainer.js';
+import SketchDisplay from '../SketchDisplay/SketchDisplay.js';s
 
 const App = () => {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Boom Boom POW</h1>
-      </header>
+      <Header />
+      <main>
+      </main>
     </div>
   );
 }
