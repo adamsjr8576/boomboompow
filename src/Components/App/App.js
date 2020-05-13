@@ -3,16 +3,15 @@ import './App.scss';
 import Header from '../Header/Header.js';
 import SketchesContainer from '../SketchesContainer/SketchesContainer.js';
 import SketchDisplay from '../SketchDisplay/SketchDisplay.js';
-import { sketchesArray } from '../../Sketches/sketches.js';
+import arrayOfSketches from '../../Sketches/sketches.js';
 
 const App = () => {
-  const [sketches, setSketches] = useState(sketchesArray);
-  console.log(sketches);
+  const [sketches, setSketches] = useState(arrayOfSketches);
+
   return (
     <div className='App'>
       <Header />
-      <main>
-      </main>
+      <SketchesContainer sketches={sketches}/>
     </div>
   );
 }

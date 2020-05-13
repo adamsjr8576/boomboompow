@@ -16,12 +16,55 @@ import sketch8 from './Sketch8';
 import sketch8Gif from './sketch8.gif';
 
 const arrayOfGifs = [sketch1Gif, sketch2Gif, sketch3Gif, sketch4Gif, sketch5Gif, sketch6Gif, sketch7Gif, sketch8Gif]
-const arrayOfSketches = [sketch1, sketch2, sketch3, sketch4, sketch5, sketch6, sketch7, sketch8];
+const arrayOfSketches = [
+  {
+    sketch: sketch1,
+    id: 1,
+    gif: sketch1Gif,
+    title: 'Snake Mouse'
+  },
+  {
+    sketch: sketch2,
+    id: 2,
+    gif: sketch2Gif,
+    title: 'Deathly Hallows'
+  },
+  {
+    sketch: sketch3,
+    id: 3,
+    gif: sketch3Gif,
+    title: 'Dream Catcher'
+  },
+  {
+    sketch: sketch4,
+    id: 4,
+    gif: sketch4Gif,
+    title: 'Intersection'
+  },
+  {
+    sketch: sketch5,
+    id: 5,
+    gif: sketch5Gif,
+    title: 'Outreach'
+  },
+  {
+    sketch: sketch6,
+    id: 6,
+    gif: sketch6Gif,
+    title: 'Clockwork'
+  },
+  {
+    sketch: sketch7,
+    id: 7,
+    gif: sketch7Gif,
+    title: 'Orbitals'
+  },
+  {
+    sketch: sketch8,
+    id: 8,
+    gif: sketch8Gif,
+    title: 'The Moon'
+  },
+];
 
-export const sketchesArray = arrayOfSketches.map((sketch, index) => {
-  return {
-    sketch: sketch,
-    id: index + 1,
-    gif: arrayOfGifs[index]
-  }
-})
+export default arrayOfSketches;
