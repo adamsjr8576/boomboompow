@@ -63,7 +63,7 @@ const arrayOfSketches = [
     sketch: sketch8,
     id: 8,
     gif: sketch8Gif,
-    title: 'The Moon'
+    title: 'Moons'
   },
 ];
 
