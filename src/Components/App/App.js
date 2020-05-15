@@ -14,10 +14,10 @@ const App = () => {
     const sketch = sketches.find(sketch => sketch.id === id);
     setSelectedSketch(sketch);
   }
-  
+
   let p5Display;
   if (isDisplayed) {
-    p5Display = <SketchDisplay sketch={selectedSketch}/>
+    p5Display = <SketchDisplay sketch={selectedSketch} setIsDisplayed={setIsDisplayed}/>
   }
 
   return (

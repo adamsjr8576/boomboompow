@@ -1,11 +1,11 @@
 const sketch6 = p => {
   p.setup = () => {
-    let canvas = p.createCanvas(p.windowWidth, p.windowHeight);
+    let canvas = p.createCanvas(p.windowWidth/1.2, p.windowHeight/1.2);
     canvas.class('home-page');
   }
 
   p.windowResized = () => {
-    p.resizeCanvas(p.windowWidth, p.windowHeight);
+    p.resizeCanvas(p.windowWidth/1.2, p.windowHeight/1.2);
   }
 
   p.draw = () => {

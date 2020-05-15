@@ -29,3 +29,12 @@
   cursor: pointer;
   outline: 0;
 }
+
+.close-button:hover {
+  transform: scale(1.1);
+  transition: transform 1s;
+}
+
+.close-button:active {
+  transform: scale(.95);
+}

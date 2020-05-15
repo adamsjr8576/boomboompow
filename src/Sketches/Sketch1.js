@@ -1,10 +1,10 @@
 const sketch1 = p => {
  p.setup = () => {
-   p.createCanvas(p.windowWidth, p.windowHeight);
+   p.createCanvas(p.windowWidth/1.2, p.windowHeight/1.2);
  }
 
  p.windowResized = () => {
-   p.resizeCanvas(p.windowWidth, p.windowHeight);
+   p.resizeCanvas(p.windowWidth/1.2, p.windowHeight/1.2);
  }
 
  p.draw = () => {
