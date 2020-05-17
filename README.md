@@ -1,68 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Boom Boom POW
+### An exploration of p5.js
 
-## Available Scripts
+## Abstract 
+ - This project is meant to be an intro exploration into the use of p5.js. With a background in art and design I have a strong interest in the ability to integrate creative and fluid user interactions into web based applications. I also have a personal interest in using tools such as Processing and p5.js to create visual art. This project was a way to introduce and familiarize myself with p5.js and its potential to integrate into a React app. This app is meant to be a gallery displaying my various p5.js sketches. (Soon to add: descriptions of sketches and concepts/skills practiced in each - more interactive sketches that take user inputs and handle more generative focused visuals)
+ 
+## Set Up
 
-In the project directory, you can run:
+### Clone Down & Run Locally:
 
-### `npm start`
+1. Fork repo and clone down or just clone down
+2. cd into directory and run ```npm install``` to install library dependencies
+3. In terminal run ```npm run start``` to create locally hosted served to run app
+4. You will see a bunch of code - find `http://localhost:8080/` and copy into your web browser
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Overview of Technologies
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+ HTML5 - CSS3 - SASS - JavaScript ES6 - React.js - p5.js - p5-react-wrapper
+ 
+ ![sketch6](https://user-images.githubusercontent.com/49846853/82154696-c471d980-982c-11ea-86cc-b42ef0f78a35.gif)
+ 
+ 
